@@ -387,7 +387,7 @@ brew install python@3.12
 
 ```bash
 # Navigate to the project directory
-cd aws-bedrock-agentcore-customer-support
+cd AWS-Agentcore-Customer-Support-Agent
 
 # Create .venv explicitly using the brew-installed 3.12
 /opt/homebrew/opt/python@3.12/bin/python3.12 -m venv .venv
@@ -553,7 +553,7 @@ When all 15 checks show ✅, the account is fully clean.
 ## Project Structure
 
 ```
-aws-bedrock-agentcore-customer-support/
+AWS-Agentcore-Customer-Support-Agent/
 ├── main.py                    # CLI entry point (argparse)
 ├── Makefile                   # make run / test / clean / verify
 ├── requirements.txt           # Pinned dependencies
